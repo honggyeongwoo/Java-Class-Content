@@ -1,0 +1,19 @@
+
+public class HellowWorld {
+
+	public static void main(String[] args) {
+
+		// File - New - Class <>파일 만드는 방법
+		// console.log() <> 자바/ system.out.printIn();
+		
+		System.out.println("안녕하세요");
+		System.out.println("실행은 단축키 사용이 편해요");
+		System.out.println('1');
+		
+		// 실행 단추 누르면 아래에 출력 - 단축어 ctrl + f11 (저장 및 실행)
+		
+		
+	}
+
+}
+

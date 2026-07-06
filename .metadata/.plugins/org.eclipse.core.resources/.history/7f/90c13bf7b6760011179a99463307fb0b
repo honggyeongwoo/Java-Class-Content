@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class InputTest2 {
+
+	public static void main(String[] args) {
+	Scanner a = new Scanner(System.in);
+	
+	int 나이 = a.nextInt();
+	
+	System.out.println("나이: ");
+
+	}
+
+}

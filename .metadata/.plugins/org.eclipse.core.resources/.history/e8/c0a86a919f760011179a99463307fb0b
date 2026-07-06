@@ -1,0 +1,21 @@
+
+public class OperatorTest2 {
+
+	public static void main(String[] args) {
+		
+		int 좋아요 = 100;
+		System.out.println("현재 좋아요: " + 좋아요 );
+		
+		++좋아요;
+		
+		System.out.println("현재 좋아요2: " + 좋아요);
+		
+		System.out.println(좋아요 >= 100 ?
+							"축하드려요 인기게시글 이네요" :
+							"분발하세요"	
+				
+				);
+
+	}
+
+}

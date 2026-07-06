@@ -1,0 +1,12 @@
+
+public class OperatorTest {
+
+	public static void main(String[] args) {
+// 값을 "1" 씩만 증가,감소하는 연산자
+		int 숫자 = 10;
+		
+		System.out.println("초가값: " + 숫자);
+
+	}
+
+}

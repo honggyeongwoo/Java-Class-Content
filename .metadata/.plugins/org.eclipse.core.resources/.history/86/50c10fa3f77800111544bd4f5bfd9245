@@ -1,0 +1,60 @@
+package arrayTest;
+
+public class ArrayTest5 {
+
+	public static void main(String[] args) {
+		
+		// 기존 for문이 조금 어려워서 쉽게 변경된 for~each
+		// 자바스크립트 for in for of랑 똑같다
+
+		int[] nums = {10,20,30,40,50,60};
+
+//		for each
+		
+		for(int num : nums) {
+			System.out.println(num);
+		}
+		
+		System.out.println();
+		
+		
+	    String[] fruits = {
+	            "사과",
+	            "바나나",
+	            "포도",
+	            "딸기",
+	            "수박"
+	        };	
+		
+		for(String f : fruits) {
+			System.out.println(f);
+		}
+		
+		System.out.println();
+		
+		int[] prices = {
+	            35000,
+	            120000,
+	            18000,
+	            95000,
+	            150000
+	        };
+		
+		int 누적금액 = 0;
+		
+		for(int pr : prices) {
+			누적금액 = 누적금액 + pr;
+		}
+		
+		System.out.println("누적금액은: " + 누적금액);
+		
+		System.out.println();
+		
+		if(pr >= 100000) {
+			System.out.println("10만원 이상금액 입니다." +pr);
+		}
+		System.out.println();
+
+/////////////////////
+		}
+		}

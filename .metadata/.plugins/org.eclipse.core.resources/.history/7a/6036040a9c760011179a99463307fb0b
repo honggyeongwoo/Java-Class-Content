@@ -1,0 +1,19 @@
+
+public class OperatorTest {
+
+	public static void main(String[] args) {
+// 값을 "1" 씩만 증가,감소하는 연산자
+//		++변수명 or --변수명
+		int 숫자 = 10;
+		
+		System.out.println("초기값: " + 숫자);
+		System.out.println("1증가: " + (++숫자+2));
+		
+		int 숫자2 = 10;
+		
+		System.out.println("초기값: " + 숫자2);
+		System.out.println("1감소: " + (--숫자2));
+
+	}
+
+}

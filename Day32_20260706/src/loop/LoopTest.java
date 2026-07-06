@@ -1,0 +1,50 @@
+package loop;
+
+public class LoopTest {
+
+	public static void main(String[] args) {
+		// package?
+// 자바에서 관련있는 파일들을 하나의 폴더(디렉토리) 단위로 묶어서 관리하는 것
+//		package 문장은 파일 최상단! 에 ㅇ존재 해야함
+		
+//		컴파일? (Compile)
+//		내가 작성한 파일을 컴퓨터가 알아들을 수 있는 0/1로 번역해주는 것
+		
+//		도메인(Domain)
+//		naver.com, google.com 인터넷에서 웹사이트를 쉽게 찾아가기 위한 이름
+//		Package 구조를이용해서 도메인을 만든다
+//		중복xx
+		
+//		반복문
+		
+		for(int num = 1; num <= 10; ++num) {
+			System.out.println(num);
+		}
+		
+// 1~100까지 반복
+//		시작값 - 조건(참을 찾음)-증감
+		
+		
+		for(int num2 = 1 ; num2 <= 100 ; ++num2) {
+			System.out.println(num2);
+		}
+		
+//		10까지 짝수만 반복 출력?
+		
+		for(int num3 = 1 ; num3 <= 10 ; ++num3) {
+			if(num3 % 2 == 0) {
+				System.out.println(num3);
+			}
+		}
+		
+		//  num += 2;   <> num = num +2;
+		
+		for(int num4 = 2 ; num4 <= 10 ; num4 += 2) {
+			System.out.println(num4);
+		}
+		
+		
+		
+		
+	}
+}

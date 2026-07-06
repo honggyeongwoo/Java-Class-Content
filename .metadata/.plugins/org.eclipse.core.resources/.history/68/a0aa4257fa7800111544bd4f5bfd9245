@@ -1,0 +1,28 @@
+package StringTest;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+
+	String name = "홍길동";
+	String message = "안녕하세요";
+	
+	System.out.println(message.length());
+	
+	String prog = "HTML CSS JAVASCRIPT JAVA REACT";
+			System.out.println(prog);
+			
+	System.out.println();
+	
+	String text = prog.substring(0,8);
+	System.out.println(text);	
+	
+	System.out.println();
+	
+	String url = "https://naver.com/blog";
+			
+	String text2 = url.substring(18);
+	System.out.println(text2);
+	}
+
+}

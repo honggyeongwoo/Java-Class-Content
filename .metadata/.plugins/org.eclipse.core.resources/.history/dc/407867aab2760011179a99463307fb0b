@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class InputTest {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in); //<input type=text> 와 동일 역할
+		
+		System.out.println("입력하세요");
+		
+		int 숫자 = input.nextInt();
+
+	}
+
+}

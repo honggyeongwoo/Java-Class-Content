@@ -1,0 +1,55 @@
+package arrayTest;
+
+public class ArrayTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		
+		String[] products = {"티셔츠", "청바지", "운동화",};
+		
+		for(int i = 0; i < products.length; ++i) {
+			System.out.println(products[i]);
+		}
+		
+//		
+		
+		String[] titles = {
+			    "공지사항입니다",
+			    "질문있어요",
+			    "환영합니다",
+			    "오늘 수업 재미있어요",
+			    "점심 뭐 먹을까요?",
+			    "숙제 제출했습니다",
+			    "회원가입이 안돼요",
+			    "감사합니다",
+			    "이벤트 참여하세요",
+			    "게시판 첫 글입니다"
+			};
+		
+		for(int start = 0; start < titles.length; ++start) {
+			System.out.println(titles[start]);
+		}
+
+//		
+		
+		int[] prices = {
+			    15000,
+			    32000,
+			    8000,
+			    45000,
+			    12000,
+			    28000,
+			    9900,
+			    55000,
+			    18000,
+			    25000
+			};
+		
+		
+		
+		
+		
+	}
+
+}

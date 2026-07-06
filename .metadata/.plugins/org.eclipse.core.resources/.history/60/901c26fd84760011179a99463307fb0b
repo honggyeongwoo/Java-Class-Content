@@ -1,0 +1,16 @@
+
+public class HellowWorld {
+
+	public static void main(String[] args) {
+
+		// File - New - Class <>파일 만드는 방법
+		// console.log() <> 자바/ system.out.printIn();
+		
+		System.out.println("안녕하세요");
+		
+		
+		
+	}
+
+}
+
