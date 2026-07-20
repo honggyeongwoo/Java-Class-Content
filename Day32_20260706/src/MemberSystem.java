@@ -56,27 +56,27 @@ String 로그인할아이디 = input.nextLine();
 // 힌트 문자를 비교할때 사용하는 기능!
 
 // 1. memberIds 배열에서 하나씩 꺼내서 확인
-
-//if(로그인할아이디.equals(memberIds[0])) {
-//System.out.println("로그인 성공");
-//}
-//if(로그인할아이디.equals(memberIds[1])) {
-//System.out.println("로그인 성공");
-//}
-//if(로그인할아이디.equals(memberIds[2])) {
-//System.out.println("로그인 성공");
-//}else {
-//System.out.println("로그인 실패!");
-//}
-
-for(String 잠깐저장 : memberIds) {
-	if(잠깐저장.equals(로그인할아이디)) {
-		System.out.println("로그인 성공");
-		break;
-	}
-}
+// if(로그인할아이디.equals(memberIds[0])) {
+// System.out.println("로그인 성공");
+// }
+// if(로그인할아이디.equals(memberIds[1])) {
+// System.out.println("로그인 성공");
+// }
+// if(로그인할아이디.equals(memberIds[2])) {
+// System.out.println("로그인 성공");
+// }else {
+// System.out.println("로그인 실패!");
+// }
 // 2. 맞으면 로그인 성공 출력
 //    틀리면 로그인 실패! 
+
+for(String 잠깐저장  :memberIds) {
+if(잠깐저장.equals(로그인할아이디)) {
+System.out.println("로그인 성공");
+break; //로그인 성공했으니 
+//더이상 아이디를 비교할 필요가 없다!
+}
+}
 
 
 } else if (선택한메뉴번호 == 3) {
